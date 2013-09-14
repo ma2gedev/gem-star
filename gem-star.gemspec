@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Gem::Star::VERSION
   spec.authors       = ["Takayuki Matsubara"]
   spec.email         = ["takayuki.1229@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Star github repository automatically when you gem install}
+  spec.summary       = %q{Star github repository automatically when you gem install}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -18,6 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.4"
+  spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_dependency "netrc"
+  spec.add_dependency "octokit", "~> 2.0"
 end
