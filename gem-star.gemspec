@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["takayuki.1229@gmail.com"]
   spec.description   = %q{Star github repository automatically when you gem install}
   spec.summary       = %q{Star github repository automatically when you gem install}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ma2gedev/gem-star"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
